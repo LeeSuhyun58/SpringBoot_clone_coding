@@ -1,0 +1,13 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: demo
+
+  datasource:
+    platform: mysql
+    url: jdbc:mysql://sudb.cwsytlvx0dpw.ap-northeast-2.rds.amazonaws.com/suDB?autoReconnect=true
+    username: esu
+    password: soosu0508
+    driver-class-name: com.mysql.cj.jdbc.Driver # mysql 8버전
